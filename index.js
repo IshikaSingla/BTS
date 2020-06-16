@@ -3,7 +3,7 @@ var bodyParser = require('body-parser')
 var router = express.Router()
 
 router.get('/', function (req, res) {
-  res.render('./index.ejs')
+  res.render('index')
 })
 
 module.exports = router
